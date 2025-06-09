@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    
+    <style>
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 10px auto 10px auto;
+        }
+     h1, h3, h5 {
+        margin: 0.1cm 0;
+        line-height: 1.2;
+        font-family: sans-serif;
+    }
+     .link-box {
+            display:flex;
+            align-content: center;
+            justify-content: center;
+            padding:10px; 
+            border-radius:5px; 
+            background:#333; 
+            color: #fff; 
+            text-decoration:none; 
+            margin:5px; 
+            border: 1px solid #313131; 
+            box-shadow: 0 2px 8px rgba(0,0,0,0.8);
+            transition:background 0.2s,color 0.2s;
+        } 
+         .link-box:hover {
+          background: #8d8b8b; 
+          color: #333;
+         }  
+         @media (max-width: 500px) {
+            .profile-picture {
+                width: 100px;
+                height: 100px;
+            }
+            h1, h3, h5 {
+                font-size: 1.2em;
+            }
+            .link-box {
+                padding: 8px;
+                font-size: 0.9em;
+            }
+         }
+    </style>
+</head>
+<body 
+style="background-color: #333;text-align: center;">
+    <img src="IMG-20250327-WA0024.jpg" alt="profile-picture" class="profile-picture">
+    <h1 style="color:white;text-align:center">Oluwadamisi Ayodele</h1>
+    <h3 style="color: green; text-align:center;">Rivers State,Nigeria</h3>
+    <h4 style="text-align:center; color:white">"Researcher and avid reader"</h4>
+   
+    <a href="https://github.com/Oluwadamie591" target="_blank" class="link-box">GitHub</a>
+    <a href="https://twitter.com/Oluwadamie2" target="_blank" class="link-box">Twitter</a>
+</body>
+</html>
